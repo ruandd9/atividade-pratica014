@@ -1,0 +1,69 @@
+body{
+    position: relative;
+    background-image: url(https://cdn.dribbble.com/users/3474264/screenshots/16771748/media/71c3710e4011359391975e33c170b54e.png?resize=1200x900&vertical=center);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: auto !important;
+    font-family: "Pixelify Sans" !important;
+    color: white !important;;
+    font-size: 16px !important;
+    
+  
+    
+    
+}
+
+header{
+    display: flex;
+    gap: 70%;
+
+}
+
+header .menuNav ul{
+    display: flex;
+    justify-content: end;
+    gap: 18%;
+    list-style: none;
+}
+
+.carousel {
+    max-width: 80%;
+    margin: auto;
+}
+
+.carousel-inner {
+    text-align: center; /* Centraliza o texto e outros elementos dentro do carrossel */
+}
+
+.carousel-item img {
+    margin: auto; /* Centraliza a imagem dentro do item do carrossel */
+    object-fit: cover; /* Garante que a imagem se ajuste corretamente */
+    width: 100%; /* Ajusta a largura da imagem para preencher o carrossel */
+    height: 380px;
+
+
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 0.5rem;
+    padding: 1rem; 
+}
+
+.carousel-caption .text-white {
+    background: rgba(0, 0, 0, 0.3); 
+}
+
+.card{
+    width: 200px;
+}
+
+#vilaoSection, #heroSection{
+    background-image: url();
+    display: flex;
+    justify-content: center;
+}
+
+
